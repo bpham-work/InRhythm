@@ -1,4 +1,6 @@
 {{ name }}
 <div>
-  <ir-boxes [count]="100"></ir-boxes>
+  <label>Enter number of boxes:</label>
+  <input [(ngModel)]="numOfBoxes"/>
+  <ir-boxes [count]="numOfBoxes"></ir-boxes>
 </div>
