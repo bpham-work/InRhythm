@@ -7,11 +7,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
 import { MyComponent } from './mycomponent/mycomponent';
+import { IrBoxesComponent } from './irboxes/irboxes.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyComponent
+    MyComponent,
+    IrBoxesComponent
   ],
   imports: [
     BrowserModule,
