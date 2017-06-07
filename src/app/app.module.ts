@@ -6,16 +6,19 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
 
+import { MyComponent } from './mycomponent/mycomponent';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    RouterModule.forRoot(rootRouterConfig, { useHash: true })
+    RouterModule.forRoot(rootRouterConfig)
   ],
   bootstrap: [ AppComponent ]
 })
