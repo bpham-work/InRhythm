@@ -18,4 +18,8 @@ export class IrBoxesComponent implements OnChanges {
             this.boxes.push(newBox);
         }
     }
+
+    removeBoxAtIndex(boxIndex: number): void {
+        this.boxes.splice(boxIndex, 1);
+    }
 }

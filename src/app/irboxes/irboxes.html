@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="red-box" *ngFor="let box of boxes">
+    <div class="red-box" *ngFor="let box of boxes; let boxIndex = index" (click)="removeBoxAtIndex(boxIndex)">
         <h1>{{ box.index }}</h1>
     </div>
 </div>
