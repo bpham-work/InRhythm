@@ -5,6 +5,6 @@ import { Component } from '@angular/core';
   templateUrl: 'mycomponent.html'
 })
 export class MyComponent {
-  public name: string = 'InRhythm';
-  public numOfBoxes: number = 0;
+    public name: string = 'InRhythm';
+    public numOfBoxes: number = 0;
 }
